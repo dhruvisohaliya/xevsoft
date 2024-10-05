@@ -1,0 +1,814 @@
+
+
+@media screen and (max-width: 767px) {
+  
+  
+  nav {
+    display: none;
+   }
+   .end{
+    display: none;
+    padding: 0px;
+   }
+  
+  #banner .owl-nav {
+     display: none;
+  }
+  #banner .item .text_box {
+    top: 40%;
+  }
+  #banner .item .text_box h2 {
+      font-size: 50px;
+  }
+  #banner .item .text_box p {
+    font-size: 18px;
+    max-width: 450px;
+    padding: 0px 15px;
+    text-align: center;
+    margin: auto;
+  }
+  .btn{
+    padding:0 20px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .btn1_2{
+    margin-left:0;
+  }
+  /* -------Gallary---------Team------------------------- */
+  .text_box1 h3{
+    font-size: 35px;
+  }
+  .bread{
+    display: none;
+  }
+   /* -------------------section 1----------------------------------- */
+   .ab2{
+     max-width: 500px; 
+    overflow: hidden;
+    
+   }
+  .about_us .rel{
+    padding: 0px 10px;
+    
+  }
+  .about_us .rel .img3 img{
+    width:100%;
+  }
+  .about_us .rel .img4 img {
+    width: 173px;
+    height: 193px;
+    padding: 0;
+  }
+  .about_us .rel .img4 {
+    bottom: -5% !important;
+    right: 0 !important;
+  }
+  .about{
+    padding-left: 0;
+    padding: 0px 10px;
+  }
+  .about h2 {
+    font-size: 40px;
+    letter-spacing: -1px;
+  }
+  .ab1{
+    padding-top: 45px;
+    
+  }
+  /* -----------------------section 2------------------------------ */
+  .about h5{
+    padding-top: 0px;
+    font-size: 18px;
+  }
+  .serv1{
+    padding: 0px 10px;
+  }
+ /* ------------------------section 3------------------------------- */
+   .count1{
+    padding: 0px 10px;
+   }
+   .counter{
+    margin-bottom: 30px;
+   }
+   .counter p{
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-left: 15px;
+    text-align: left;
+   }
+   /* -----------------------section 4--------------------------------- */
+    .slid{
+      padding: 0px 10px;
+    }
+    #slider .detail_box{
+      width: 100%;
+     }
+
+    #slider .box .icon{
+      position: absolute;
+      top: 70%;
+      left: 35%;
+    }
+    #slider .icon a{
+      margin-left: 8px;
+      font-size: 16px;
+    }
+    /* -----------------------------our Team---------------------------- */
+     .detail_boxs{
+      width: 100%;
+     }
+
+     .boxs .iconss{
+      position: absolute;
+      top: 75%;
+      left: 35%;
+    }
+     .iconss a{
+      margin-left: 8px;
+      font-size: 16px;
+    }
+    /* -------------------section 5---------------------------------------- */
+    .black{
+      padding: 0px 10px;
+    }
+    .black h5 {
+      font-size: 18px;
+     
+    }
+    .black h2{
+     font-size: 42px;
+     letter-spacing: -1px;
+     width: 100%;
+     }
+     .black p{
+      width:100%;
+     }
+     
+     .video{
+     margin-top: 100px;
+     opacity: 40%;
+   }
+   /* ----------------------section 6-------------------------------- */
+   
+   .img-container{
+    padding: 0px 10px;
+   }
+    .gallery img{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+   }
+   .gallery::after {
+    content: "";
+    position: absolute;
+    left: 12px;
+    top: 12px;
+    height:calc(100% - 12px);
+    width:calc(100% - 12px);
+    background: #ff7425;
+    opacity: 0;
+    transition: .3s;
+  } 
+   /* ------------------------------section 7---------------------------- */
+   .acco{
+    padding: 0px 10px;
+   }
+   .que h2 {
+    width: 400px;
+    text-align: center;
+    font-size: 41px;
+    font-weight: 700;
+    }
+  .collapsed{
+    font-size: 16px;
+   }
+   .talk{
+    padding: 0px 10px;
+   }
+   .talk img{
+    margin-top: 15px;
+    width: 100%;
+    height: 464px;
+  }
+  /* -----------------------------section 8--------------------------------------- */
+  .business{
+    padding: 0px 10px;
+  }
+  .buss1{
+    margin-bottom: 60px;
+  }
+  /* ---------------------section 9-------------------------------------- */
+  .say p{
+    font-size: 16px;
+  }
+  .ta-info h6{
+    font-size: 18px;
+  }
+  /* ------------------------section 10------------------------------------------ */
+  #logoslider img{
+    width: 152px;
+    height: 48px;
+    margin: 0;
+   }
+   /* --------------------------section 11------------------------------------ */
+   .blog-box{
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .images-box{
+    overflow: hidden;
+  }
+  .images-box img{
+    width: 495px;
+    height: 334px;
+  }
+   .blog-detail h4{
+    
+    font-size: 26px;
+   }
+   .blog-detail p{
+    
+    font-size: 16px;
+    margin:0 0 15px 0;
+    overflow: hidden;
+   }
+   .cal{
+    padding: 0px 10px;
+   }
+   .blog-box .data{
+    position: absolute;
+    top: 280px;
+    background: #ff7425;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 6px;
+    left: 30px;
+    }
+    /* ---------------------------section 12------------------------------------- */
+    .ends{
+      padding: 0px 10px;
+    }
+    .foot-img img{
+      width: 264px;
+      height: 58px;
+    }
+    .e_pera{
+      font-size: 16px;
+    }
+    .tex{
+      margin-left: 60px;
+    }
+    .arrow{
+      position: absolute;
+      height: 40px;
+      width: 50px;
+      color: white;
+      border: none;
+      right: 31px;
+      bottom: 43px;
+      background-color: #ff7425;
+      border-radius: 4px;
+    }
+    .footer-social {
+     position: absolute;
+     left: 35%;
+    }
+    .copyright .copy{
+      text-align: center;
+    }
+    .ender ul{
+      text-align: center;
+      padding: 0;
+      margin-top: 20px;
+    }
+}
+@media screen and (min-width: 540px)and (max-width:576px){
+  .images-box img{
+    width: 100%;
+    height: 334px;
+  }
+  .img-container{
+    padding: 0px 10px;
+    width: 100%;
+   }
+    .gallery .sub-item1 ,  .gallery .sub-item {
+    width: 100%;
+    }
+ 
+}
+
+@media screen and (min-width: 576px)and (max-width: 766px)
+{   .container{width: 540px}
+
+
+    /*-----------------------section 4--------------------------------- */ *
+    /* .slid{
+      padding: 0px 10px;
+    }
+    #slider .detail_box{
+      width: 100%;
+     }
+
+    #slider .box .icon{
+      position: absolute;
+      top: 60%;
+      left: 16%;
+    }
+    #slider .icon a{
+      margin-left: 8px;
+      font-size: 16px;
+    }
+     */
+    /* -----------------------------our Team---------------------------- */
+     .detail_boxs{
+      width: 100%;
+     }
+
+     .boxs .iconss{
+      position: absolute;
+      top: 60%;
+      left: 16%;
+    }
+     .iconss a{
+      margin-left: 8px;
+      font-size: 16px;
+    }
+  /* ---------------section 11-------------------------------------- */
+   
+  .images-box img{
+    width: 495px;
+    height: 334px;
+  }
+
+ .blog-box .data{
+      position: absolute;
+      top: 280px;
+      background: #ff7425;
+      color: #fff;
+      padding: 5px 15px;
+      border-radius: 6px;
+      left: 30px;
+  }  
+
+   /* --------------section 12---------------------------------------- */
+    .arrow{
+      position: absolute;
+      height: 40px;
+      width: 50px;
+      color: white;
+      border: none;
+      right: 37px;
+      bottom: 308px;
+      background-color: #ff7425;
+      border-radius: 4px;
+    }
+    .footer-social {
+      position: absolute;
+      left: 60%;
+     }
+     .copyright .copy{
+      text-align: center;
+    }
+    .ender ul{
+      text-align: center;
+      padding: 0;
+      margin-top: 20px;
+    }
+    .e_pera{
+      font-size: 18px;
+    }
+  
+  
+   
+}
+@media screen  and (min-width: 768px)
+{
+    .container{width: 720px}
+}
+@media screen and (min-width: 768px) and (max-width: 992px)
+{
+    .container{width: 960px}
+
+    /* -------------------ban slider----------------------- */
+    .item h2 {
+      font-size: 36px;
+      margin-bottom: 30px;
+    }
+    .item .text-light{
+      width: 350px;
+      font-size: 18px;
+      font-weight: 500;
+      text-align: center;
+    }
+    .btn{
+      padding:0 20px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .btn1_2{
+      margin-left:0;
+    }
+    nav {
+      display: none;
+     }
+     .end{
+      display: none;
+      padding: 0px;
+     }
+    #banner .owl-nav {
+      display: none;
+   }
+   #banner .item .text_box {
+     top: 40%;
+   }
+   /* -------------gallay------Team----------------------------------------- */
+ 
+
+   /* ---------------------section 1----------------------------------- */
+   .about_us .rel{
+    padding: 0px 10px;
+  }
+  .about_us .rel .img3 img{
+    width:100%;
+  }
+  .about_us .rel .img4 img {
+    width: 229px;
+    height: 267px;
+    padding: 0;
+  }
+  .about_us .rel .img4 {
+    bottom: -5% !important;
+    right: 0 !important;
+  }
+  .about{
+    padding-left: 0;
+    padding: 0px 10px;
+  }
+  .about h2 {
+    font-size: 40px;
+    letter-spacing: -1px;
+  }
+  .ab1{
+    padding-top: 45px;
+    
+  }
+  /* ----------section 2--------------- */
+  .about h5{
+    padding-top: 0px;
+    font-size: 18px;
+  }
+  .serv1{
+    padding: 0px 10px;
+  }
+  /*-----------------------section 4--------------------------------- */ *
+    .slid{
+      padding: 0px 10px;
+    }
+    #slider .detail_box{
+      width: 100%;
+     }
+
+    #slider .box .icon{
+      position: absolute;
+      top: 50%;
+      left: 26%;
+    }
+    #slider .icon a{
+      margin-left: 8px;
+      font-size: 16px;
+    }
+    /* -----------------------------our Team---------------------------- */
+     .detail_boxs{
+      width: 100%;
+     }
+
+     .boxs .iconss{
+      position: absolute;
+      top: 60%;
+      left: 25%;
+    }
+     .iconss a{
+      margin-left: 8px;
+      font-size: 16px;
+    }
+    /* -----------------------------our Team---------------------------- */
+     .detail_boxs{
+      width: 100%;
+     }
+
+     .boxs .iconss{
+      position: absolute;
+      top: 60%;
+      left: 25%;
+    }
+     .iconss a{
+      margin-left: 8px;
+      font-size: 16px;
+    }
+  /* ------------section 5------------------------- */
+  .black{
+    padding: 0px 10px;
+  
+   }
+   .provider h2{
+    width: 100%;
+    font-size: 41px;
+   }
+   .pera p{
+    width: 100%;
+   }
+   .video{
+    margin-top: 100px;
+   }
+   /* ---------------------section 6-------------------------------- */
+   .img-container{
+    padding: 0px 10px;
+    width: 100%;
+   }
+    .gallery .sub-item1 ,  .gallery .sub-item {
+    width: 100%;
+    }
+    .gallery::after {
+      content: "";
+      position: absolute;
+      left: 12px;
+      top: 12px;
+      height:calc(100% - 24px);
+      width:calc(100% - 12px);
+      background: #ff7425;
+      opacity: 0;
+      transition: .3s;
+    }
+    
+   
+   /* -------------------section 7----------------------- */
+   .acco{
+    padding: 0px 10px;
+   }
+   .que h2 {
+   text-align: center;
+    font-size: 41px;
+    font-weight: 700;
+    }
+   .collapsed{
+    font-size: 16px;
+   }
+   .talk{
+    padding: 0px 10px;
+   }
+   .talk img{
+    margin-top: 15px;
+    width: 100%;
+    height: 574px;
+  }
+  /* -----------------section 8------------------------ */
+  .business{
+    padding: 0px 10px;
+  }
+.price_box {
+ padding: 40px;
+ }
+.buss1{
+    margin-bottom: 60px;
+  }
+ /* ---------------section 9------------------- */
+  .say p{
+   font-size: 16px;
+   }
+  .ta-info h6{
+      font-size: 18px;
+   }
+   /* -------------------section 11---------------- */
+   .blog-box{
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .images-box{
+    overflow: hidden;
+  }
+  .images-box img{
+    width: 100%;
+    
+  }
+   .blog-detail h4{
+    
+    font-size: 26px;
+   }
+   .blog-detail p{
+    
+    font-size: 16px;
+    margin:0 0 15px 0;
+    overflow: hidden;
+   }
+   .cal{
+    padding: 0px 10px;
+   }
+   .blog-box .data{
+    position: absolute;
+    top: 180px;
+    background: #ff7425;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 6px;
+    left: 30px;
+    }
+    /* ----------------section 12------------------------ */
+    .footer-social {
+      position: absolute;
+      left: 65%;
+     }
+     .e_pera{
+      font-size: 18px;
+    }
+}
+
+
+@media screen and (min-width: 811px) and (max-width: 992px)
+{
+  .about_us .rel .img4 img {
+    width: 370px;
+    height: 413px;
+    padding: 0;
+  }
+  .about_us .rel .img4 {
+    bottom: 0% !important;
+    right: 0 !important;
+  }
+  /* -----------section 6------------------ */
+  .img-container{
+    padding: 0px 10px;
+    width: 100%;
+   }
+    
+    .gallery .sub-item1 ,  .gallery .sub-item {
+    width: 100%;
+    }
+    .gallery::after {
+      content: "";
+      position: absolute;
+      left: 12px;
+      top: 12px;
+      height:calc(100% - 24px);
+      width:calc(100% - 12px);
+      background: #ff7425;
+      opacity: 0;
+      transition: .3s;
+    }
+}
+@media screen and (max-width: 991.98px){
+  .mob_main_menu
+  {
+      display: block;
+      position: absolute;
+      top: 120%;
+      left: 0;
+      background-color:white;
+      color:#242628;
+      width:100%;
+      z-index: 2;
+      padding: 15px 40px;
+  }
+  .mob_submenu
+  {
+      padding-left: 20px;
+  }
+  .mob_main_menu li a
+  {
+      display: block;
+      padding: 8px;
+      padding-left: 30px;
+  }
+  .mob_main_menu li::before{
+    position: absolute;
+    content: '';
+    border-bottom: 1px solid rgb(164, 159, 159 , 0.50);
+    width: 100%;
+    left: 0px;
+  }
+  .toggle_icon{
+    border: 1px solid white;
+    padding: 0px 5px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px)
+{
+    .container{width: 1140px}
+    .about_us .rel{
+      padding: 0px 10px;
+    }
+    .about_us .rel .img3 img{
+      width:100%;
+    }
+    .about_us .rel .img4 img {
+      width: 370px;
+      height: 413px;
+      padding: 0;
+    }
+    .about_us .rel .img4 {
+      bottom: -5% !important;
+      right: 0 !important;
+    }
+    .about{
+      padding-left: 0;
+      padding: 0px 10px;
+    }
+    .about h2 {
+      font-size: 40px;
+      letter-spacing: -1px;
+    }
+    .ab1{
+      padding-top: 0;
+    }
+    /* ------------------section 6------------------------------- */
+    .img-container{
+      padding: 0px 10px;
+      width: 100%;
+     }
+      .gallery .sub-item1 ,  .gallery .sub-item {
+      width: 100%;
+      }
+      .gallery::after {
+        content: "";
+        position: absolute;
+        left: 12px;
+        top: 12px;
+        height:calc(100% - 24px);
+        width:calc(100% - 12px);
+        background: #ff7425;
+        opacity: 0;
+        transition: .3s;
+      }
+    /* ---------------section 11-------------------------- */
+    .blog-box{
+      margin-bottom: 30px;
+      width: 100%;
+    }
+    .images-box{
+      overflow: hidden;
+    }
+    .images-box img{
+      width: 100%;
+      height: 201px;
+      
+    }
+     .blog-detail h4{
+      width:220px ;
+      font-size: 26px;
+     }
+     .blog-detail p{
+      
+      font-size: 16px;
+      margin:0 0 15px 0;
+      overflow: hidden;
+     }
+     .cal{
+      padding: 0px 10px;
+     }
+     .blog-box .data{
+      position: absolute;
+      top: 150px;
+      background: #ff7425;
+      color: #fff;
+      padding: 5px 15px;
+      border-radius: 6px;
+      left: 30px;
+      }
+      /* -------------section 12------------------------ */
+      .arrow{
+        position: absolute;
+        height: 40px;
+        width: 50px;
+        color: white;
+        border: none;
+        right: 30px;
+        bottom: 205px;
+        background-color: #ff7425;
+        border-radius: 4px;
+      }
+      .footer-social {
+        position: absolute;
+        left: 76%;
+       }
+       .copyright .copy{
+        text-align: center;
+      }
+      .ender ul{
+        text-align: center;
+        padding: 0;
+        margin-top: 20px;
+      }
+      .e_pera{
+        font-size: 18px;
+      }
+  
+    
+}
+@media screen and (min-width: 1200px) and (max-width: 1400px)
+{
+    .container{width: 1320px}
+
+}
+
+

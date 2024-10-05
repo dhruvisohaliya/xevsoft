@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallary-Xevsoft</title>
+    <style>
+        .img2 {
+            position: relative;
+            background-image: url("assets/bdrc-bg.jpg");
+            min-height: 550px;
+            overflow: hidden;
+            background-size: cover;
+            object-fit: cover;
+        }
+       .text_box1 h3 {
+            font-size: 80px;
+            color: #fff;
+            font-weight: 600;
+            line-height: 1.3;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+
+        .img2 .text_box1 {
+            position: absolute;
+            width: 100%;
+            top: 50%;
+            transform: translateY(200px);
+            text-align: left;
+            overflow: hidden;
+        }
+        .nav1 ul {
+            text-align: center;
+        }
+        .nav1 li{
+            display: inline;
+        }
+        .gall::before{
+         display: inline-block;
+         padding-right: 15px;
+         padding-left: 10px;
+         color: #ddd;
+         content: "|";
+        }
+   </style>
+    <!-- https://wpdemo.zcubethemes.com/xevsoft/ -->
+
+    <!-- font awesome file -->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- ---bootstrap file----->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- owlcarousel file -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <!-- animate file -->
+    <link rel="stylesheet" href="css/animate.min.css">
+
+    <!---------aos file---------- -->
+    <link rel="stylesheet" href="css/aos.css">
+
+    <!----------fancy box------------------>
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="css/xevsoft.css">
+
+    <!-- media css file -->
+    <link rel="stylesheet" href="css/media.css">
+
+</head>
+
+<body>
+    <!-- -------------------------preloadr effect---------------------------- -->
+    <!--   -->
+    <div class="sticky_top">
+        <i class="fa-solid fa-turn-up"></i>
+    </div>
+    <!-------------------- header section start------------------------------------------------->
+    <div class="header">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-auto">
+                    <div class="logo">
+                        <a href="#"><img src="assets/asset 0.png" alt="#"></a>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <nav class=" d-sm-none d-lg-block">
+                        <ul class="d-flex m-0 p-0 main_menu">
+                            <li><a href="#">Home</a>
+                                <ul class="submenu">
+                                    <li><a href="index.html">Home Page 01</a></li>
+                                    <li><a href="index2.html">Home Page 02</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Pages</a>
+                                <ul class="submenu">
+                                    <li><a href="#">Gallary</a></li>
+                                    <li><a href="team.html">Our Team</a></li>
+                                    <li><a href="pricing.html">Pricing</a></li>
+                                    <li><a href="faq.html">Faq</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+
+                    <div class="toggle_icon d-lg-none d-md-block">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <ul class=" m-0 p-0  mob_main_menu d-lg-none">
+                        <li><a href="#" class="d-flex justify-content-between">
+                                <div>Home</div>
+                                <div class="me-2">+</div>
+                            </a>
+                            </a>
+                            <ul class="mob_submenu">
+                                <li><a href="index.html">Home Page 01</a></li>
+                                <li><a href="index2.html">Home Page 02</a></li>
+                             </ul>
+                        </li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#" class="d-flex justify-content-between">
+                                <div>Pages</div>
+                                <div class="me-2">+</div>
+                            </a>
+                            <ul class="mob_submenu">
+                                <li><a href="">Gallary</a></li>
+                                <li><a href="team.html">Our Team</a></li>
+                                <li><a href="pricing.html">Pricing</a></li>
+                                <li><a href="faq.html">Faq</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-auto d-sm-none d-lg-block end">
+                    <div class="social d-flex">
+                        <a href="#"><i class="fa-regular fa-magnifying-glass"></i></a>
+                        <div class="btn1 " style="margin-top:5px; height: 56px;">
+                            <button type="button" class="btn ">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------------------section slider-------------------------------------->
+
+    <section>
+        <div class="img2">
+            <div class="container">
+                <div class="text_box1 text-center">
+                    <h3>Gallary</h3>
+                    <div class="nav1">
+                        <ul class="bread">
+                            <li><a href="index.html" style="color: white; font-weight: 700;">Home</a></li>
+                            <li style="color: white;padding-left: .5rem;" class="gall">Gallary</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -------------------------------section 6---------------------------------------------->
+    <section class=" spacer2">
+        <div class="cont">
+
+            <div class="row align-items-end" style="margin-bottom: 50px;">
+                <div class="col-xl-12 col-lg-12">
+                    <div class="button-group filter-button-group text-center" style="margin-bottom: 15px;">
+                        <button class=" act" data-filter="*" id="view">View All</button>
+                        <button class=" act" data-filter=" .3d-printing">3d Printing</button>
+                        <button class=" act" data-filter=".Card-Printing">Card Printing</button>
+                        <button class=" act" data-filter=".Design">Design</button>
+                        <button class=" act" data-filter=".web-design">Web Design</button>
+                        <button class=" act" data-filter=".web-devlopement">Web Development</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="img-container">
+                <div class="demo">
+                    <div class="Card-Printing web-design web-devlopement iso">
+                        <a href="assets/asset 11.png" class="group">
+                            <div class="gallery">
+                                <img src="assets/asset 11.png" alt="" class="sub-item1">
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="3d-printing web-design iso">
+                        <a href="assets/asset 12.png" class="group">
+                            <div class="gallery ">
+                                <img src="assets/asset 12.png" alt="" class=" sub-item">
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="Design web-design iso">
+                        <a href="assets/asset 13.png" class="group">
+                            <div class="gallery">
+                                <img src="assets/asset 13.png" alt="" class=" sub-item">
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="3d-printing web-design web-devlopement iso">
+                        <a href="assets/asset 14.png" class="group">
+                            <div class="gallery">
+                                <img src="assets/asset 14.png" alt="" class=" sub-item">
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="Card-Printing web-design web-devlopement iso ">
+                        <a href="assets/asset 15.png" class="group">
+                            <div class="gallery ">
+                                <img src="assets/asset 15.png" alt="" class="  sub-item">
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="3d-printing Card-Printing Design web-design web-devlopement ">
+                        <a href="assets/asset 16.png" class="group">
+                            <div class="gallery ">
+                                <img src="assets/asset 16.png" alt="" class=" sub-item1">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------------------------section 12-------------------------------------------- -->
+    <section class="footer">
+        <div class="container">
+            <div class="row justify-content-between ends">
+                <div class="col-xl-4 col-lg-4 col-sm-6 " style="margin-bottom: 30px;">
+                    <div class="foot-img">
+                        <img src="assets/logo.png" alt="">
+                    </div>
+                    <p style="color: #cdd1d6;" class="e_pera">Suspendisse non sem ante. Cras pretium
+                        gravida leo a convallis. Nam malesuada interdum metus, sit amet dictum ante
+                        congue eu. Maecenas ut maximus enim.</p>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-sm-6 links " style="margin-bottom: 30px;">
+                    <h2>Our Links</h2>
+                    <div class="plus">Home</div>
+                    <div class="plus">About Us</div>
+                    <div class="plus">Services</div>
+                    <div class="plus">Blog</div>
+                    <div class="plus">Contact</div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-sm-6 post ">
+                    <h2>Latest Post</h2>
+                    <div>
+                        <ul class="p-0" style="margin-bottom: 25px;">
+                            <li class="d-flex" style="margin-bottom: 25px;">
+                                <div class="thum">
+                                    <img src="assets/asset 31.png" alt="">
+                                </div>
+                                <div class="tex">
+                                    <a href="">Nothing impossble to need hard work</a><br>
+                                    <span style="color: #ff7425;">7 March, 2023</span>
+                                </div>
+                            </li>
+
+                            <li class="d-flex ">
+                                <div class="thum">
+                                    <img src="assets/asset 32.png" alt="">
+                                </div>
+                                <div class="tex">
+                                    <a href="">Nothing impossble to need hard work</a><br>
+                                    <span style="color: #ff7425;">7 March, 2023</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-sm-6 sub ">
+                    <h2>Subscribe Now !</h2>
+                    <div class="email p-relative" style="margin-bottom: 30px;">
+                        <input type="text" class="header-input" placeholder="Your Email...">
+                        <button class="btn-errow arrow">
+                            <i class="fa fa-location-arrow"></i>
+                        </button>
+                        </input>
+                    </div>
+
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="copyright">
+        <div class="container">
+            <div class="row align-items-center copyright">
+                <div class="col-lg-6 col-md-6 copy">
+                    Copyright © Xevsoft 2023 . All rights reserved.
+                </div>
+                <div class="col-lg-6 col-md-6 ender ">
+                    <ul class="foot-end">
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Term &amp; Conditions</a></li>
+                        <li><a href="#">Legal</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- js file -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/multi-animated-counter.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+
+            //   -----------------section 6------------------------
+            $('#view').first().addClass('active');
+
+            $('.act').click(function () {
+                $('.act').removeClass('active');
+                $(this).addClass('active');
+            });
+
+            // init Isotope-------------------------------
+            var $grid = $('.demo').isotope({
+                // options
+            });
+            // filter items on button click-----------------
+            $('.filter-button-group').on('click', 'button', function () {
+                var filterValue = $(this).attr('data-filter');
+                $grid.isotope({ filter: filterValue });
+            });
+
+            $("a.group").fancybox({
+                'transitionIn': 'elastic',
+                'transitionOut': 'elastic',
+                'speedIn': 600,
+                'speedOut': 200,
+                'overlayShow': false
+            });
+
+            //scroll to header fix code//------------------------
+            $(window).scroll(function () {
+                var h = $(window).scrollTop()
+
+                if (h > 150) {
+                    $('.header').addClass('fixed_header')
+                    $('.sticky_top').fadeIn(350)
+                }
+                else {
+                    $('.header').removeClass('fixed_header')
+                    $('.sticky_top').fadeOut(350)
+                }
+            })
+            $('.sticky_top').hide()
+
+
+            //click to out top//------------------------
+            $('.sticky_top').click(function () {
+                $('html , body').animate({ scrollTop: 0 }, 1000);
+            })
+
+
+
+            //preloader//-----------------------
+            setTimeout(() => {
+                $('.preloader').slideUp(1000)
+            }, 3000);
+
+
+            //Responsive header//-----------------------
+            $('.mob_main_menu, .mob_submenu').hide()
+
+            $('.toggle_icon').click(function () {
+                $('.mob_main_menu').slideToggle()
+                $(this).find('i').toggleClass('fa-bars fa-times');
+            })
+
+            $('.mob_main_menu > li > a').click(function () {
+                $(this).next('.mob_submenu').slideToggle();
+            })
+
+        });
+    </script>
+</body>
+
+</html>
